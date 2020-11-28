@@ -1,0 +1,32 @@
+{
+  "name": "cli-alert",
+  "version": "0.0.1",
+  "description": "Cross platform CLI Alerts with colors & colored symboled for success, info, warning, error. Works on macOS, Linux, and Windows",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "format": "prettier --wrote \"./**/*.{js,json}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkoriginal/cli-alert.git"
+  },
+  "author": "Tauqueer Khan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tkoriginal/cli-alert/issues"
+  },
+  "homepage": "https://github.com/tkoriginal/cli-alert#readme",
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "cli-alerts",
+    "Tauqueer Khan",
+    "tkoriginal",
+    "cli-alert"
+  ]
+}
