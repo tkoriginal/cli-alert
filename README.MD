@@ -24,7 +24,7 @@ npm install cli-alert
 ```js
 const alert = require('cli-alert')
 
-// You can choose between SUCCESS, INFO, WARNING, Error
+// You can choose between SUCCESS, INFO, WARNING, ERROR
 alert({ type: 'success', msg: 'All Done!', name: 'Great' })
 alert({ type: 'info', msg: 'This is a cool package' })
 alert({ type: 'warning', msg: "You didn't add something!" })
@@ -72,3 +72,5 @@ All keys are Type `string`
 <br>
 
 [![🙌](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/connect.png)](./../../)
+
+- This readme was build using template and icons from Ahmad Awais
