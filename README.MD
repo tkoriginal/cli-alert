@@ -1,3 +1,5 @@
+![cli-alert screenshot](./.github/cli-alert.png)
+
 # cli-alerts
 
 [![DOWNLOADS](https://img.shields.io/npm/dt/node-cli-handle-error?label=DOWNLOADS%20%20❯&colorA=6A788D&colorB=6A788D&style=flat)](https://www.npmjs.com/package/node-cli-handle-error) [![Learn VSCode](https://img.shields.io/badge/-VSCODE.pro%20%E2%86%92-gray.svg?colorB=6A788D&style=flat)](https://VSCode.pro/?utm_source=GitHubFOSS)
