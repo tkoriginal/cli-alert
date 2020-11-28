@@ -26,10 +26,20 @@ const alert = require('cli-alert')
 
 // You can choose between SUCCESS, INFO, WARNING, ERROR
 
+alert()
+// Prints: ✖  ERROR  You forgot to define all options
+
 alert({ type: 'success', msg: 'All Done!', name: 'Great' })
+// Prints:  ✔  GREAT  All Done!
+
 alert({ type: 'info', msg: 'This is a cool package' })
+// Prints:  ℹ  INFO  This is a cool package
+
 alert({ type: 'warning', msg: "You didn't add something!" })
+// Prints:  ⚠  WARNING  You didn't add something!
+
 alert({ type: 'error', msg: 'Something went wrong mate' })
+// Prints:  ✖  ERROR  Something went wrong mate
 ```
 
 <br />
