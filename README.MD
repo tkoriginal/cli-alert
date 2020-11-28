@@ -25,6 +25,7 @@ npm install cli-alert
 const alert = require('cli-alert')
 
 // You can choose between SUCCESS, INFO, WARNING, ERROR
+
 alert({ type: 'success', msg: 'All Done!', name: 'Great' })
 alert({ type: 'info', msg: 'This is a cool package' })
 alert({ type: 'warning', msg: "You didn't add something!" })
@@ -42,9 +43,22 @@ alert({ type: 'error', msg: 'Something went wrong mate' })
 #### ❯ options
 
 Type: `object`<br>
+Default: {}
 
-Object that takes keys `type`, `msg`, `name`
-All keys are Type `string`
+#### ❯ type
+
+Type: `string`<br>
+Default: `error`
+
+#### ❯ msg
+
+Type: `string`<br>
+Default: `You forgot to define all options`
+
+#### ❯ name
+
+Type: `string`<br>
+Default: ``
 
 [![📝](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/log.png)](changelog.md)
 
